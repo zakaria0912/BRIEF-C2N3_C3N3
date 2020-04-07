@@ -34,7 +34,7 @@ body {
       border: none;
       margin: 0;
       text-align: center;
-      background: #2959c2;
+      background: #1087c7;
       color: white;
       font-family: 'PT Sans', sans-serif;
       font-size: 24px;
@@ -66,43 +66,47 @@ body {
       .main-content .symptômes .info-img img {
         width: 9rem; }
 
+nav {
+  width: 100%;
+  display: inline-flex;
+  align-items: center;
+  background-image: url(/img/bg.png);
+  background-size: cover;
+  position: fixed;
+  z-index: 2; }
+  nav img {
+    width: 50px;
+    margin: 7px; }
+  nav ul {
+    display: inline-flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0;
+    padding: 0; }
+    nav ul li {
+      list-style: none;
+      padding-right: 52px; }
+      nav ul li a {
+        color: black;
+        font-size: 19px; }
+        nav ul li a span {
+          border: 1px solid #1087c7;
+          border-radius: 7px;
+          padding: 3px;
+          padding-right: 0; }
+
 header {
   width: 100%;
   align-items: center;
   display: block; }
-  header nav {
-    width: 100%;
-    display: inline-flex;
-    align-items: center;
-    background-image: url(/img/bg.png);
-    background-size: cover; }
-    header nav img {
-      width: 50px;
-      margin: 7px; }
-    header nav ul {
-      display: inline-flex;
-      justify-content: flex-end;
-      align-items: center;
-      width: 100%;
-      max-width: 1200px;
-      margin: 0;
-      padding: 0; }
-      header nav ul li {
-        list-style: none;
-        padding-right: 52px; }
-        header nav ul li a {
-          color: black;
-          font-size: 19px; }
-          header nav ul li a span {
-            border: 1px solid #1087c7;
-            border-radius: 7px;
-            padding: 3px;
-            padding-right: 26px; }
   header .info-corona {
     width: 100%;
     text-align: center;
     background-image: url(/img/bg2.png);
-    overflow: hidden; }
+    overflow: hidden;
+    padding: 20px; }
     header .info-corona h1 {
       font-size: 13px; }
     header .info-corona p {
@@ -165,7 +169,7 @@ header {
     border: none;
     margin: 0;
     text-align: center;
-    background: #2959c2;
+    background: #1087c7;
     color: white;
     font-family: 'PT Sans', sans-serif;
     font-size: 24px;
@@ -239,6 +243,16 @@ header {
         width: 9rem; }
       .proteger .img-proteger .img-info p {
         color: #2959c2; }
+  .proteger .home {
+    color: #2959c2;
+    font-size: 21;
+    text-align: center;
+    margin: 20px; }
+    .proteger .home p {
+      padding-bottom: 13px; }
+    .proteger .home img {
+      width: 100px;
+      padding-bottom: 26px; }
 
 .Informations {
   width: 100%;
@@ -266,6 +280,24 @@ header {
       padding: 21px;
       font-size: 13px;
       color: white; }
+
+.article {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  color: #1087c7;
+  font-size: 19px; }
+  .article .prt2 {
+    width: 100%;
+    display: flex;
+    justify-content: center; }
+    .article .prt2 img {
+      width: 9rem; }
+    .article .prt2 .img3 {
+      text-align: center;
+      padding: 90px 138px;
+      color: #2959c2; }
 
 a {
   text-decoration: none; }

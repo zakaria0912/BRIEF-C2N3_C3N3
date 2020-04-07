@@ -29,6 +29,19 @@
          }
         }
     }
+    .home{
+        color: $color_back;
+        font-size: $font-titre;
+        text-align: center;
+        margin: 20px;
+        p{
+            padding-bottom: 13px;
+        }
+        img{
+            width: 100px;
+            padding-bottom: 26px;
+        }
+    }
 }
 // //////////////main-content///////////////////
 .Informations{
@@ -62,6 +75,28 @@
             padding: 21px;
             font-size: $font-header;
             color: $color_white;
+        }
+    }
+}
+// //////////////////////////
+.article{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    color: $color_titre;
+    font-size: $font-nav;
+    .prt2{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        img{
+            width: 9rem;
+        }
+        .img3{
+            text-align: center;
+            padding: 90px 138px;
+            color: $color_back
         }
     }
 }
