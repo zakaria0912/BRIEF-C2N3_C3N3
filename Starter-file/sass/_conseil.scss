@@ -1,4 +1,4 @@
-
+// //////////////top-content///////////////////
 .proteger{
     width: 100%;
     display: flex;
@@ -27,6 +27,41 @@
          p{
             color:$color_back;
          }
+        }
+    }
+}
+// //////////////main-content///////////////////
+.Informations{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    background-image: url(/img/bgftr.png);
+    background-size: cover;
+    //justify-content: center;
+    padding: 35px;
+    .info{
+        text-align: center;
+        h1{
+            font-size: $font-titre;
+            color: $color_titre;
+            padding-bottom: 40px;;
+        }
+        p{
+            padding-bottom: 15px;
+            color: $color_back;
+            font-size: $font-nav;
+        }
+    }
+    .infmain{
+        padding: 0px 70px
+    }
+    .site{
+        padding-top: 73px;
+        a{
+            background-image: url(/img/footer.png);
+            padding: 21px;
+            font-size: $font-header;
+            color: $color_white;
         }
     }
 }
