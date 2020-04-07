@@ -1,0 +1,32 @@
+
+.proteger{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    .title-prtg{
+        color: $color_titre;
+        font-size: $font-titre;
+        text-align: center;
+        margin: 20px;
+    }
+    .img-proteger{
+        width: 96%;
+        margin: 0 auto;
+        padding: 0;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-wrap: wrap;
+        .img-info{
+            text-align: center;
+            padding: 36px 65px;
+         img{
+           width: 9rem;
+         }
+         p{
+            color:$color_back;
+         }
+        }
+    }
+}
