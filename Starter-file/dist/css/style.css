@@ -71,9 +71,7 @@ nav {
   display: inline-flex;
   align-items: center;
   background-image: url(/img/bg.png);
-  background-size: cover;
-  position: fixed;
-  z-index: 2; }
+  background-size: cover; }
   nav img {
     width: 50px;
     margin: 7px; }
