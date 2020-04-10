@@ -35,6 +35,9 @@
            font-size: $font-main;
            padding: 5px 196px;
            border-radius: 8px;
+           a:hover {
+             background-color: $color_black;
+           }
         }
     }
     // /////////////////////////top-content////////////////////////

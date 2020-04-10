@@ -40,6 +40,8 @@ body {
       font-size: 24px;
       padding: 5px 196px;
       border-radius: 8px; }
+      .top-content .text-content .btn a:hover {
+        background-color: black; }
 
 .main-content {
   width: 100%;
@@ -240,9 +242,9 @@ header {
       .proteger .img-proteger .img-info img {
         width: 9rem; }
       .proteger .img-proteger .img-info p {
-        color: #2959c2; }
+        color: #494949; }
   .proteger .home {
-    color: #2959c2;
+    color: #494949;
     font-size: 21;
     text-align: center;
     margin: 20px; }
@@ -267,7 +269,7 @@ header {
       padding-bottom: 40px; }
     .Informations .info p {
       padding-bottom: 15px;
-      color: #2959c2;
+      color: #494949;
       font-size: 19px; }
   .Informations .infmain {
     padding: 0px 70px; }
@@ -295,7 +297,7 @@ header {
     .article .prt2 .img3 {
       text-align: center;
       padding: 90px 138px;
-      color: #2959c2; }
+      color: #494949; }
 
 a {
   text-decoration: none; }
