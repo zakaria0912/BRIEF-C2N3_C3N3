@@ -5,6 +5,7 @@
     background-image: url(/img/footer.png);
     background-size: cover;
     font-size: $font-main;
+    font-family: $font-family;
     .div{
         text-align: center;
         color: $color_white;
@@ -17,7 +18,8 @@
         .info-media{
             padding-top: 43px;
             font-size: 24px;
-             margin: -39px 31px;
+            margin: -39px 31px;
+            padding-left: 161px;
             h1{
                 font-size: $font-main;
                 color:$color_yellow;

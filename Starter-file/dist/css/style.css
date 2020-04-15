@@ -3,7 +3,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Arial Black", Gadget, sans-serif; }
+  font-family: "Cairo", sans-serif; }
 
 body {
   margin: 0;
@@ -51,9 +51,9 @@ body {
   color: #1087c7;
   font-size: 19px; }
   .main-content .symptômes {
-    width: 53%;
-    margin: 0 auto;
-    padding: 0;
+    width: 64%;
+    margin: 0px auto;
+    padding: 0 73px;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -68,39 +68,38 @@ body {
       .main-content .symptômes .info-img img {
         width: 9rem; }
 
-nav {
-  width: 100%;
-  display: inline-flex;
-  align-items: center;
-  background-image: url(/img/bg.png);
-  background-size: cover; }
-  nav img {
-    width: 50px;
-    margin: 7px; }
-  nav ul {
-    display: inline-flex;
-    justify-content: flex-end;
-    align-items: center;
-    width: 100%;
-    max-width: 1200px;
-    margin: 0;
-    padding: 0; }
-    nav ul li {
-      list-style: none;
-      padding-right: 52px; }
-      nav ul li a {
-        color: black;
-        font-size: 19px; }
-        nav ul li a span {
-          border: 1px solid #1087c7;
-          border-radius: 7px;
-          padding: 3px;
-          padding-right: 0; }
-
 header {
   width: 100%;
   align-items: center;
   display: block; }
+  header nav {
+    width: 100%;
+    display: inline-flex;
+    align-items: center;
+    background-image: url(/img/bg.png);
+    background-size: cover; }
+    header nav img {
+      width: 50px;
+      margin: 7px; }
+    header nav ul {
+      display: inline-flex;
+      justify-content: flex-end;
+      align-items: center;
+      width: 100%;
+      max-width: 1200px;
+      margin: 0;
+      padding: 0; }
+      header nav ul li {
+        list-style: none;
+        padding-right: 52px; }
+        header nav ul li a {
+          color: black;
+          font-size: 19px; }
+          header nav ul li a span {
+            border: 1px solid #1087c7;
+            border-radius: 7px;
+            padding: 3px;
+            padding-right: 0; }
   header .info-corona {
     width: 100%;
     text-align: center;
@@ -119,7 +118,8 @@ header {
   background-color: #1087c7;
   background-image: url(/img/footer.png);
   background-size: cover;
-  font-size: 24px; }
+  font-size: 24px;
+  font-family: "Cairo", sans-serif; }
   .top-footer .div {
     text-align: center;
     color: white;
@@ -131,7 +131,8 @@ header {
     .top-footer .content-footer .info-media {
       padding-top: 43px;
       font-size: 24px;
-      margin: -39px 31px; }
+      margin: -39px 31px;
+      padding-left: 161px; }
       .top-footer .content-footer .info-media h1 {
         font-size: 24px;
         color: #f4cf1b;
